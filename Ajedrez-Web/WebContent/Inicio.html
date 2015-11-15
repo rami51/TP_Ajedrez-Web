@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ajedrez JF - Inicio</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" style="background-color:#FFFFFF">
+  <div class="row">
+   <div class="col-xs-3" style="background-color:#ffffff"></div>
+   <div class="col-xs-6"  style="background-color:#ffffff">
+	<form role="form" action="Inicio" method="post" id="formInicio" name="formInicio">
+		<div class="form-group">
+		<label for="dni1">DNI Jugador 1:</label>
+		<input class="form-control" type="text" name="dni1" size="20" id="dnij1">
+		</div>
+		<div class="form-group">
+		<label for="dni2">DNI Jugador 2:</label>
+		<input class="form-control" type="text" name="dni2" size="20" id="dnij2">
+		</div>
+		<div class="form-group">
+		<input class="btn btn-primary btn-block" type="submit" value="Nueva Partida" id="eventoNuevaPartida" name="eventoNuevaPartida"/>
+		</div>
+		<div class="form-group">
+		<input class="btn btn-primary btn-block" type="submit" value="Ver Juegos Pendientes" id="eventoVerJuegosPend" name="eventoVerJuegosPend"/>
+		</div>
+	</form>
+	<a href="RegistrarJugador.html"><img src="Signo.jpg" alt="signo">  Registrar Jugador</a>
+   </div>
+   <div class="col-xs-3" style="background-color:#ffffff"></div>
+  </div>	
+</div>
+
+</body>
+</html>
